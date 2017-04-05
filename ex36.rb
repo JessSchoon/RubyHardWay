@@ -30,7 +30,7 @@ def boy_phase_one
       if dress != "yes"
       	wake("Well, that was interesting!")
       else
-        puts "You wake up enough to move out of that dream."
+        puts "You wake up enough to move out of that part of the dream."
       	girl_phase_one
       end
     else
@@ -53,7 +53,7 @@ def girl_phase_one
       astronaut
     elsif choice == "Puppy" || choice == "puppy"
       puts "The dragon falls in love with 'Pluto' the adorable Husky puppy you brought along."
-      puts "We now have a new problem. Your puppy has a second mother."
+      puts "We now have a new problem. Your puppy has a second mother and we finished this dream so we won't find out how that works out."
       astronaut
     else
       puts "I have no idea if that will work, let's try it."
